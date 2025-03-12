@@ -4,7 +4,6 @@ library(ggplot2)
 library(devtools)
 require(moonBook)
 library(magrittr)
-setwd("C:/Users/sy/Desktop/sy")
 data = read.csv("waste_municipality.csv", header = T, sep = ",")
 data
 head(data)
